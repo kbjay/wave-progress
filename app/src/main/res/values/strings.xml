@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DrawDemo</string>
+    <string name="set_back_color">点击更换背景色</string>
+    <string name="set_wave_color">点击更换wave背景色</string>
+    <string name="set_process">拖动改变wave进度：</string>
+    <string name="set_wave_height">点击改变wave波纹的高度（振幅）</string>
+    <string name="set_wave_width">点击改变wave波纹宽度（周期）</string>
+    <string name="set_wave_move_speed">点击更改wave的移动速度</string>
+</resources>

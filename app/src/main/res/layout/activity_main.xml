@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.wzq.drawdemo.MainActivity">
+
+    <com.wzq.drawdemo.WaveView
+        android:id="@+id/waveView"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+        <!--app:process="0.2"-->
+        <!--app:waveColor="#ff999999"-->
+        <!--app:circleColor="#ff990099"-->
+        <!--app:waveHeight="5dp"-->
+        <!--app:waveWidth="20dp"-->
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="@string/set_process"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_changeBackColor"
+        android:text="@string/set_back_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_changeWaveColor"
+        android:text="@string/set_wave_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/set_wave_height"
+        android:id="@+id/bt_changeWaveHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="@string/set_wave_width"
+        android:id="@+id/bt_changeWaveWidth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+  <!--  <Button
+        android:text="@string/set_wave_move_speed"
+        android:id="@+id/bt_changeWaveMoveSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />-->
+</LinearLayout>
